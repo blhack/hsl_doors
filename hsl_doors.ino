@@ -54,6 +54,11 @@ void loop() {
     while(p.running());
     lcd.begin(16,2);
     lcd.print("DETHKLOK");
+    //while (digitalRead(8) == 0) {
+    ////  delay(10);
+    //}
+    //p.runShellCommand("/usr/sbin/dethkill");
+    //while(p.running());
     delay(1000);
   }
   
